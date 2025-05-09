@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import profilePhoto from '/satyam-chandra-photo.png';
 
 const Hero = () => {
   const socialLinks = [
@@ -64,7 +65,7 @@ const Hero = () => {
             </div>
             <motion.a
               href="/Satyam_Chandra_CV (2).pdf"
-              download
+              download="Satyam_Chandra_CV.pdf"
               className="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 mb-4"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
@@ -81,7 +82,7 @@ const Hero = () => {
           >
             <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-white/60 dark:bg-gray-900/60 backdrop-blur-md border border-gray-200 dark:border-gray-700 group transition-transform duration-300">
               <img
-                src="src/assets/satyam-chandra-photo.png"
+                src={profilePhoto}
                 alt="Satyam Chandra"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 border-4 border-blue-400/40 dark:border-blue-400/60 shadow-xl"
                 loading="eager"
