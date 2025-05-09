@@ -17,9 +17,9 @@ const Skills = () => {
       icon: <Code2 className="w-6 h-6" />,
       skills: [
         { name: "Python", level: 95 },
-        { name: "JavaScript/TypeScript", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "R", level: 80 }
+        { name: "JavaScript/TypeScript", level: 55 },
+        { name: "Java", level: 65 },
+        { name: "Bash", level: 85 }
       ]
     },
     {

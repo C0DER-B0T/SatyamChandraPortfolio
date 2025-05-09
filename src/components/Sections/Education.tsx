@@ -1,30 +1,30 @@
 import { motion } from 'framer-motion';
-import { GraduationCap, Award } from 'lucide-react';
+import { GraduationCap, Award, Lightbulb } from 'lucide-react';
 
 const Education = () => {
   const education = [
     {
-      degree: "Master's in Computer Science",
+      degree: "Certified Software & AI Engineer",
       specialization: "Artificial Intelligence & Machine Learning",
-      institution: "Stanford University",
-      year: "2020 - 2022",
-      description: "Focused on advanced machine learning algorithms, deep learning, and AI system design. Graduated with distinction.",
+      institution: "IIT Roorkee",
+      year: "2025 - 2026",
+      description: "Comprehensive certification program focusing on modern software development and AI engineering practices. Gained hands-on experience in building scalable AI solutions and software systems.",
       achievements: [
-        "Published research paper on Neural Architecture Search",
-        "Led AI research team in national competition",
-        "Developed novel approach to transfer learning"
+        "Developed and deployed multiple AI-powered applications",
+        "Mastered advanced software engineering practices",
+        "Completed industry-relevant projects in AI/ML"
       ]
     },
     {
-      degree: "Bachelor's in Computer Science",
-      specialization: "Software Engineering",
-      institution: "MIT",
-      year: "2016 - 2020",
-      description: "Specialized in software development with focus on AI and machine learning applications.",
+      degree: "Higher Secondary Education",
+      specialization: "Physics, Chemistry, Mathematics (PCM)",
+      institution: "UK Board",
+      year: "2020 - 2021",
+      description: "Completed 12th standard with focus on core technical subjects. Developed strong analytical and problem-solving skills through rigorous study of mathematics and sciences.",
       achievements: [
-        "Dean's List for academic excellence",
-        "First place in AI hackathon",
-        "Research assistant in ML lab"
+        "Strong foundation in mathematical concepts",
+        "Excellent problem-solving abilities",
+        "Developed logical thinking through PCM subjects"
       ]
     }
   ];
@@ -43,7 +43,25 @@ const Education = () => {
             Education
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            My academic journey in computer science and artificial intelligence
+            My educational journey and commitment to continuous learning
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="mb-12 bg-blue-50 dark:bg-blue-900/30 rounded-xl p-6 text-center"
+        >
+          <div className="flex items-center justify-center mb-4">
+            <Lightbulb className="w-8 h-8 text-blue-600 dark:text-blue-400" />
+          </div>
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+            Believe in Skills, Not Just Degrees
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            While formal education provides a foundation, true expertise comes from continuous learning and practical experience. I focus on developing real-world skills and staying current with industry trends.
           </p>
         </motion.div>
 

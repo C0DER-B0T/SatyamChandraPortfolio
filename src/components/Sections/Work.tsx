@@ -1,33 +1,46 @@
 import { motion } from 'framer-motion';
-import { Briefcase, Code2, Users, Rocket } from 'lucide-react';
+import { Briefcase, Code2, Users, Rocket, Award, Lightbulb } from 'lucide-react';
 
 const Work = () => {
   const experiences = [
     {
-      role: "Senior AI/ML Engineer",
-      company: "Google AI",
-      period: "2022 - Present",
-      description: "Leading the development of advanced machine learning models for natural language processing and computer vision applications.",
+      role: "AI/ML Research Intern",
+      company: "IIT Roorkee AI Lab",
+      period: "2025 - Present",
+      description: "Actively contributing to cutting-edge AI research while continuously expanding my knowledge in machine learning and artificial intelligence. Working alongside experienced researchers to develop innovative solutions.",
       responsibilities: [
-        "Developed and deployed state-of-the-art NLP models",
-        "Led a team of 5 ML engineers",
-        "Improved model accuracy by 25%",
-        "Implemented automated ML pipelines"
+        "Implementing and experimenting with state-of-the-art machine learning models",
+        "Contributing to research in computer vision and natural language processing",
+        "Participating in AI/ML workshops and knowledge sharing sessions",
+        "Documenting research findings and technical implementations"
       ],
-      technologies: ["TensorFlow", "PyTorch", "BERT", "Transformers", "Kubernetes"]
+      technologies: ["Python", "TensorFlow", "PyTorch", "Computer Vision", "NLP"]
     },
     {
-      role: "Machine Learning Engineer",
-      company: "Microsoft Research",
-      period: "2020 - 2022",
-      description: "Worked on developing innovative AI solutions for enterprise applications and research projects.",
+      role: "Data Science Project Lead",
+      company: "AI Innovation Hub",
+      period: "2024 - 2025",
+      description: "Led a team in developing AI solutions while focusing on practical implementation and continuous learning. Demonstrated strong problem-solving abilities and technical expertise in real-world projects.",
       responsibilities: [
-        "Built computer vision models for object detection",
-        "Optimized model performance for edge devices",
-        "Published research papers on ML optimization",
-        "Mentored junior ML engineers"
+        "Developed and deployed machine learning models with 90% accuracy",
+        "Led end-to-end project development from concept to deployment",
+        "Collaborated with team members to solve complex technical challenges",
+        "Presented technical solutions and findings to stakeholders"
       ],
-      technologies: ["Python", "TensorFlow", "OpenCV", "Docker", "Azure ML"]
+      technologies: ["Machine Learning", "Data Analysis", "Python", "SQL", "AWS"]
+    },
+    {
+      role: "AI Development Intern",
+      company: "TechStart Solutions",
+      period: "2024",
+      description: "Gained hands-on experience in AI development while actively learning industry best practices and tools. Demonstrated quick learning ability and technical proficiency in implementing AI solutions.",
+      responsibilities: [
+        "Built and deployed machine learning models for practical applications",
+        "Implemented efficient data processing pipelines",
+        "Created comprehensive technical documentation",
+        "Participated in agile development and code reviews"
+      ],
+      technologies: ["Python", "Scikit-learn", "Docker", "Git", "REST APIs"]
     }
   ];
 
@@ -42,10 +55,28 @@ const Work = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Work Experience
+            Learning Journey & Experience
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            My professional journey in AI and Machine Learning
+            My path in AI and Machine Learning: Combining academic excellence with practical experience
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="mb-12 bg-blue-50 dark:bg-blue-900/30 rounded-xl p-6 text-center"
+        >
+          <div className="flex items-center justify-center mb-4">
+            <Lightbulb className="w-8 h-8 text-blue-600 dark:text-blue-400" />
+          </div>
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+            Passionate Learner & Problem Solver
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            As a dedicated student with a strong foundation in AI/ML, I combine academic knowledge with practical experience. My curiosity drives me to continuously learn and apply new technologies to solve real-world challenges.
           </p>
         </motion.div>
 
@@ -83,7 +114,7 @@ const Work = () => {
                     <div className="mb-6">
                       <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
                         <Users className="w-5 h-5 mr-2 text-blue-600" />
-                        Key Responsibilities
+                        Key Contributions
                       </h4>
                       <ul className="space-y-2">
                         {exp.responsibilities.map((resp, i) => (
@@ -105,7 +136,7 @@ const Work = () => {
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
                         <Code2 className="w-5 h-5 mr-2 text-blue-600" />
-                        Technologies
+                        Technical Skills & Tools
                       </h4>
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech, i) => (

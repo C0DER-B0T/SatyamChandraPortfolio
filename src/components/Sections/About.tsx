@@ -1,27 +1,27 @@
 import { motion } from 'framer-motion';
-import { Code2, Brain, Rocket, Lightbulb } from 'lucide-react';
+import { Code2, Brain, Rocket, Lightbulb, BarChart2 } from 'lucide-react';
 
 const About = () => {
   const features = [
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "AI/ML Expertise",
-      description: "Specialized in developing cutting-edge machine learning models and AI solutions."
-    },
-    {
-      icon: <Code2 className="w-6 h-6" />,
-      title: "Full-Stack Development",
-      description: "Proficient in building scalable applications with modern technologies."
+      title: "AI/ML Mastery",
+      description: "Expert in developing state-of-the-art AI solutions, from deep learning models to complex neural networks. Specialized in computer vision, NLP, and reinforcement learning."
     },
     {
       icon: <Rocket className="w-6 h-6" />,
-      title: "Problem Solver",
-      description: "Passionate about solving complex problems through innovative AI solutions."
+      title: "AI Problem Solver",
+      description: "Passionate about tackling complex challenges through innovative AI solutions. Transforming theoretical concepts into practical, real-world applications."
+    },
+    {
+      icon: <BarChart2 className="w-6 h-6" />,
+      title: "Advanced Data Science & Analytics",
+      description: "Expert in statistical analysis, predictive modeling, and data-driven decision making. Transforming complex data into actionable insights."
     },
     {
       icon: <Lightbulb className="w-6 h-6" />,
-      title: "Innovation Driven",
-      description: "Constantly exploring new technologies and methodologies in AI/ML."
+      title: "AI Innovation Leader",
+      description: "Pioneering new approaches in AI/ML, staying at the forefront of emerging technologies and methodologies in artificial intelligence."
     }
   ];
 
@@ -39,7 +39,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            A passionate AI/ML Engineer with expertise in developing intelligent systems and solving complex problems through innovative solutions.
+            A dedicated AI/ML Engineer specializing in developing cutting-edge artificial intelligence solutions and pushing the boundaries of what's possible with machine learning.
           </p>
         </motion.div>
 
@@ -75,7 +75,7 @@ const About = () => {
         >
           <h3 className="text-2xl font-bold mb-4">My Mission</h3>
           <p className="text-lg">
-            To leverage artificial intelligence and machine learning to create innovative solutions that make a positive impact on society. I'm dedicated to pushing the boundaries of what's possible with AI while ensuring ethical and responsible development.
+            To revolutionize industries through advanced AI solutions and machine learning innovations. I'm committed to developing cutting-edge AI systems that solve real-world problems while maintaining the highest standards of ethical AI development and responsible innovation.
           </p>
         </motion.div>
       </div>
