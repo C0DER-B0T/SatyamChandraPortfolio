@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+// Updated: 2024 - Latest version with desktop recommendation and resume download fix
 import Hero from './components/Sections/Hero';
 import AIDemo from './components/Sections/AIDemo';
 import About from './components/Sections/About';
