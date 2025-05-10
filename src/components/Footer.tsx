@@ -45,7 +45,7 @@ const Footer = () => {
               <Github size={20} />
             </motion.a>
             <motion.a 
-              href="https://www.linkedin.com/in/satyam-chandra-953857356" 
+              href="https://www.linkedin.com/in/satyam-chandra-953857356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
               target="_blank" 
               rel="noreferrer" 
               className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
@@ -62,7 +62,7 @@ const Footer = () => {
               className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
-              aria-label="Twitter"
+              aria-label="X"
             >
               <Twitter size={20} />
             </motion.a>

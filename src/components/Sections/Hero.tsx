@@ -12,7 +12,7 @@ const Hero = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'https://www.linkedin.com/in/satyam-chandra-953857356/'
+      url: 'https://www.linkedin.com/in/satyam-chandra-953857356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
     {
       name: 'X',

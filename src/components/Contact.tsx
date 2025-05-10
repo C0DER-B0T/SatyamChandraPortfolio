@@ -130,17 +130,17 @@ const Contact = () => {
             </p>
             <div className="flex space-x-4">
               <motion.a 
-                href="https://twitter.com" 
+                href="https://x.com/satyam_cha4w" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Twitter
+                X
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/satyam-chandra-953857356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
@@ -150,14 +150,14 @@ const Contact = () => {
                 LinkedIn
               </motion.a>
               <motion.a 
-                href="https://dribbble.com" 
+                href="https://github.com/C0DER-B0T" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Dribbble
+                GitHub
               </motion.a>
             </div>
           </motion.div>
