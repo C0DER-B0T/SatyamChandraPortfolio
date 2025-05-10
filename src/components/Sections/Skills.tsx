@@ -19,6 +19,8 @@ const Skills = () => {
         { name: "Python", level: 95 },
         { name: "JavaScript/TypeScript", level: 55 },
         { name: "Java", level: 65 },
+        { name: "HTML/CSS", level: 90 },
+        { name: "LaTeX", level: 90 },
         { name: "Bash", level: 85 }
       ]
     },
@@ -68,8 +70,6 @@ const Skills = () => {
       skills: [
         { name: "Git", level: 95 },
         { name: "Linux", level: 90 },
-        { name: "HTML/CSS", level: 90 },
-        { name: "LaTeX", level: 90 },
         { name: "CI/CD", level: 85 },
         { name: "Agile", level: 90 }
       ]
