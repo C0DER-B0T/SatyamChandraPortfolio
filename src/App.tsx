@@ -29,7 +29,7 @@ const App = () => {
   const [activeTab, setActiveTab] = useState('home');
   const [isLoading, setIsLoading] = useState(true);
   const [scrollTab, setScrollTab] = useState('');
-  const scrollTimeout = useRef(null);
+  const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     // Simulate loading time
@@ -80,14 +80,22 @@ const App = () => {
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center bg-white dark:bg-gray-900">
+      <div className="fixed inset-0 flex flex-col items-center justify-center bg-white dark:bg-gray-900">
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold text-blue-600 dark:text-blue-400"
+          className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-4"
         >
           Loading...
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          className="text-lg text-gray-600 dark:text-gray-400"
+        >
+          Use Desktop for Better Viewing Experience
         </motion.div>
       </div>
     );
