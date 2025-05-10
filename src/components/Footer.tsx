@@ -34,7 +34,7 @@ const Footer = () => {
             className="flex space-x-6"
           >
             <motion.a 
-              href="https://github.com" 
+              href="https://github.com/C0DER-B0T" 
               target="_blank" 
               rel="noreferrer" 
               className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
@@ -45,7 +45,7 @@ const Footer = () => {
               <Github size={20} />
             </motion.a>
             <motion.a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/satyam-chandra-953857356" 
               target="_blank" 
               rel="noreferrer" 
               className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
@@ -56,7 +56,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </motion.a>
             <motion.a 
-              href="https://twitter.com" 
+              href="https://x.com/satyam_cha4w" 
               target="_blank" 
               rel="noreferrer" 
               className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"

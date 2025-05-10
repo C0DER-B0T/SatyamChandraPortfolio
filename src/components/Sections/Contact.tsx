@@ -27,17 +27,17 @@ const Contact = () => {
     {
       name: 'GitHub',
       icon: <Github className="w-6 h-6" />,
-      url: 'https://github.com/username'
+      url: 'https://github.com/C0DER-B0T'
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'https://linkedin.com/in/username'
+      url: 'https://www.linkedin.com/in/satyam-chandra-953857356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
     {
-      name: 'Twitter',
+      name: 'X',
       icon: <Twitter className="w-6 h-6" />,
-      url: 'https://twitter.com/username'
+      url: 'https://x.com/satyam_cha4w'
     }
   ];
 
